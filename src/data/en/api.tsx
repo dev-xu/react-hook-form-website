@@ -981,8 +981,8 @@ React.useEffect(() => {
             <code>type</code> attribute.
             <CodeArea
               withOutCopy
-              rawData={`onChange={{([ event ]) => event.target.value}}
-onChange={{([ { checked } ]) => ({ checked })}}`}
+              rawData={`onChange={([ event ]) => event.target.value}
+onChange={([ { checked } ]) => ({ checked })}`}
             />
           </td>
         </tr>
