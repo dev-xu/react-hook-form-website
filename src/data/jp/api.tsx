@@ -782,8 +782,8 @@ export default {
             <code>checked</code> 属性が読み込まれます。
             <CodeArea
               withOutCopy
-              rawData={`onChange={{([ event ]) => event.target.value}}
-onChange={{([ { checked } ]) => ({ checked })}}`}
+              rawData={`onChange={([ event ]) => event.target.value}
+onChange={([ { checked } ]) => ({ checked })}`}
             />
           </td>
         </tr>
