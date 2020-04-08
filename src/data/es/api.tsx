@@ -765,8 +765,8 @@ export default {
             del componente externo <code>value</code>.
             <CodeArea
               withOutCopy
-              rawData={`onChange={{([ event ]) => event.target.value}}
-onChange={{([ event, data ]) => ({ checked: data.checked})}}`}
+              rawData={`onChange={([ event ]) => event.target.value}
+onChange={([ event, data ]) => ({ checked: data.checked})}`}
             />
           </td>
         </tr>
