@@ -751,8 +751,8 @@ export default {
             혹은 <code>checked</code> 속성값을 읽어올 수 있습니다.
             <CodeArea
               withOutCopy
-              rawData={`onChange={{([ event ]) => event.target.value}}
-onChange={{([ { checked } ]) => ({ checked })}}`}
+              rawData={`onChange={([ event ]) => event.target.value}
+onChange={([ { checked } ]) => ({ checked })}`}
             />
           </td>
         </tr>
